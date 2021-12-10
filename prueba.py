@@ -146,7 +146,7 @@ for StudyC in set_Casos_Estudio:
         
 dataFrame = pd.DataFrame(listForDataFrame, columns=['Caso de estudio', 'Hora', 'Perdidas del SDL', 'Perdidas del STR', 'Perdidas del STN', 'Tensión barra de ' + barra.loc_name, 'potencia reactiva compensador', 'restricciones', 'tensiones zona'])
 dataFrame.set_index(['Caso de estudio', 'Hora'], inplace=True)
-dataFrame.to_excel(os.path.join(Ruta, 'La Palma Compensacion dinamica 0.97.xlsx'))
+dataFrame.to_excel(os.path.join(Ruta, 'La Palma Compensacion estatica 7mvar.xlsx'))
 app.EchoOn()
 
    
